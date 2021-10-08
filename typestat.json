@@ -1,0 +1,11 @@
+{
+    "fixes": {
+      "strictNonNullAssertions": true
+    },
+    "include": ["demo1.ts", "demo2.ts"],
+    "types": {
+      "strictNullChecks": true
+    },
+    "projectPath": "./tsconfig.json"
+  }
+  
