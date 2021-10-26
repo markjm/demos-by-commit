@@ -3,7 +3,7 @@
         "strictNonNullAssertions": true
     },
     "include": [
-        "demo1.ts"
+        "with_bom.ts"
     ],
     "types": {
         "strictNullChecks": true
