@@ -1,0 +1,9 @@
+[tool.ruff]
+# Simulate auto-discovery by adding both service directories as src roots
+# This creates namespace collision where "server" could mean either:
+#   - services/graphql/server
+#   - services/llm_actions/server
+src = ["services/graphql", "services/llm_actions"]
+
+[tool.ruff.analyze]
+preview = true
