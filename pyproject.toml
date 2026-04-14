@@ -1,0 +1,10 @@
+[project]
+name = "monorepo-example"
+version = "1.0.0"
+requires-python = ">=3.11"
+
+[tool.ruff]
+src = ['libs', '.']
+
+[tool.ruff.analyze]
+preview = true

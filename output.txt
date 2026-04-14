@@ -1,0 +1,16 @@
+{
+  "services/ai_gateway/src/ai_gateway/__init__.py": [],
+  "services/ai_gateway/src/ai_gateway/client.py": [
+    "services/ai_gateway/src/ai_gateway/other.py",
+    "services/llm_actions/src/llm_actions/openai.py" # <- this one is unexpected
+  ],
+  "services/ai_gateway/src/ai_gateway/other.py": [],
+  "services/llm_actions/src/llm_actions/chat/__init__.py": [],
+  "services/llm_actions/src/llm_actions/openai.py": [],
+  "services/llm_actions/src/llm_actions/routes.py": [
+    "services/llm_actions/src/llm_actions/openai.py"
+  ],
+  "tools/batch_inference.py": [
+    "services/llm_actions/src/llm_actions/openai.py" # <- this one is unexpected, too
+  ]
+}
